@@ -1,11 +1,6 @@
-# spount 🎵
+# spount 
 
 Check a Spotify song's real stream count from the terminal.
-
-```
-spount "blinding lights"
-spount "blinding lights" "the weeknd"
-```
 
 ---
 
@@ -77,7 +72,7 @@ Stream counts are pulled from **kworb.net**, which tracks real Spotify stream to
   https://open.spotify.com/track/...
 ```
 
-If kworb doesn't track the song (common for non-Western/Bollywood music), spount falls back to showing Spotify's popularity score (0–100) instead.
+If kworb doesn't track the song (common for non-Western/foreign music), spount falls back to showing Spotify's popularity score (0–100) instead.
 
 ---
 
